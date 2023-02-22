@@ -1,0 +1,75 @@
+body{margin: 100px;
+font-size: 20px;
+}
+#a{
+    margin: 2em;
+    font-size: 2em;
+}
+#b{
+    margin: 2rem;
+    font-size: 2rem;
+}
+#c{
+    margin: 2vh;
+    font-size: 2vh;
+}
+#d{
+    margin: 2vw;
+    font-size: 2vw;
+}
+
+
+                             /*CSS CHAINING*/
+p.x12,p.x56{background-color: burlywood;
+font : sans-serif;
+color: blue;}
+p.x34,p.x78{background-color:blanchedalmond;
+    font-style: italic;
+    color:cadetblue}
+
+#x1,#x2,#x3,#x4{
+    background-color: khaki;
+    font-family: 'Times New Roman';
+    color: black;
+}
+
+/*                  CSS Combinators            */
+#s1>p{
+    background-color: aquamarine;
+}
+#s2+p{
+    background-color: cadetblue;
+}
+#s3~p{
+    background-color: greenyellow;
+}
+
+
+
+/*                   CSS Transitions            */
+#s4{
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    transition-duration: 2s;
+}
+#s4:hover{
+    width: 100px;
+    height: 100px;
+}
+
+#s5{
+    width: 300px;
+  height: 100px;
+  background-color: rgb(70, 232, 191);
+  border: 1px solid black;
+}
+#s6{
+    width: 300px;
+    height: 100px;
+    background-color:rgb(70, 232, 191);
+    border: 1px solid black;
+}
+div#s6 {
+    transform: rotateZ(100deg);
+  }

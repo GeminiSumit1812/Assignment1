@@ -1,0 +1,32 @@
+h2{background-color: aquamarine;}
+input{margin: 3px;
+
+background-color: aliceblue;
+color: black;}
+#name{margin-left: 27px;}
+#r{background-color: aliceblue;
+}
+input[type=checkbox]{
+margin-left: 5px;
+
+}
+input[typetextarea]{
+    background-color: aliceblue;
+}
+#abc{
+    display: inline-block;
+    margin-top: 10px;
+    padding-inline: 90px;
+    background-color: aquamarine;
+}
+table{background-color: aliceblue;
+border: 2px solid aquamarine;
+}
+button{background-color: aliceblue;
+border: 2px solid black; 
+border-radius: 10px;
+}
+#check2{margin-left: 71px;}
+#check3{margin-left: 64px;}
+#check4{margin-left: 61px;}
+#check5{margin-left: 58px;}
